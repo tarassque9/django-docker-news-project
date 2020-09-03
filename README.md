@@ -14,20 +14,20 @@ If you want copy and run project on your machine you must:
 1. Clone this repository
 
 2. Add file .env with your credentials in news_project/
-DEBUG=0
-SECRET_KEY=
-DB_ENGINE=django.db.backends.postgresql
-DB_TYPE=postgres
-DB_DATABASE_NAME=your_database_name  
-DB_USERNAME=your_database_username 
-DB_PASSWORD=your_database_password
-DB_HOST=db
-DB_PORT=5432
+- DEBUG=0
+- SECRET_KEY=
+- DB_ENGINE=django.db.backends.postgresql
+- DB_TYPE=postgres
+- DB_DATABASE_NAME=your_database_name  
+- DB_USERNAME=your_database_username 
+- DB_PASSWORD=your_database_password
+- DB_HOST=db
+- DB_PORT=5432
 
 3. Add file .env-db with your credentials in news_project/
-POSTGRES_DB=your_database_name 
-POSTGRES_USER=your_database_username 
-POSTGRES_PASSWORD=your_database_password
+- POSTGRES_DB=your_database_name 
+- POSTGRES_USER=your_database_username 
+- POSTGRES_PASSWORD=your_database_password
 
 4. Run command
 - docker-compose up

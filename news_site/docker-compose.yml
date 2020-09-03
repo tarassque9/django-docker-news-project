@@ -3,7 +3,6 @@ version: '3.8'
 services:
     web:
         build: .
-        command: python /home/roombambar/Desktop/project_news/news_site/manage.py migrate
         command: gunicorn news_site.wsgi:application --bind 0.0.0.0:8000
         volumes:
             - .:/home/roombambar/Desktop/project_news/news_site
